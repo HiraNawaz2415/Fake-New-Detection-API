@@ -1,6 +1,5 @@
 ## 📰 Fake-New-Detection-API
-
-A machine learning-based web application to detect Fake vs Real News using a trained classification model. Accuracy is low it is my just practice using Fast API  .The backend is built with FastAPI, while the frontend is a simple HTML/JS interface. 
+- A machine learning-based web application to detect Fake vs Real News using a trained classification model. Accuracy is low it is my just practice using Fast API  .The backend is built with FastAPI, while the frontend is a simple HTML/JS interface. 
 ---
 
 ## ✨ Features
