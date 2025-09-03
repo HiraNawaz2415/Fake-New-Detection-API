@@ -16,7 +16,7 @@
 |  **Predictions** 
 |-----------|
 | ![image1](screenshots/fake1.png) 
-|![image2](screenshots/faket2.png) 
+|![image2](screenshots/fake2.png) 
 | ![image1](screenshots/fake3.png) 
 
 ---
