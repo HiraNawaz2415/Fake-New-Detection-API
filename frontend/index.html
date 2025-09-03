@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake News Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Fake News Detection</h1>
+    <textarea id="newsInput" placeholder="Enter news text here..."></textarea>
+    <button onclick="predict()">Check News</button>
+    <p id="result"></p>
+  </div>
+
+  <script>
+    async function predict() {
+      const text = document.getElementById("newsInput").value;
+      const response = await fetch("http://127.0.0.1:8000/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text })
+      });
+      const data = await response.json();
+      document.getElementById("result").innerText =
+        `Result: ${data.prediction} (Confidence: ${data.probability})`;
+    }
+  </script>  
+</body>
+</html>
