@@ -11,6 +11,15 @@
 - CORS enabled for easy frontend-backend communication  
 
 ---
+## Screenshots
+
+|  **Predictions** 
+|-----------|
+| ![image1](screenshots/fake1.png) 
+|![image2](screenshots/faket2.png) 
+| ![image1](screenshots/fake3.png) 
+
+---
 ## ⚙️ Installation & Setup
 
 ```bash
